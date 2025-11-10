@@ -1,20 +1,31 @@
-p{
+.container{
     border: 2px solid black;
-
-
 }
 
-div{
-    
-    height: 25px;
-    width: 250px;
+.box1{
+    height: 200px;
+    width: 150px;
+    background-color: blanchedalmond;
     text-align: center;
-    background-color: bisque;
-    color: crimson;
-    border-color: blue;
-    margin: 5px;
-    padding: 10px;
-    border: 10px solid rgb(77, 21, 130);
-    
-
+    margin:20px;
+    padding: 20px;
+    display:inline-block;
+}
+.box2{
+    height: 200px;
+    width: 150px;
+    background-color:coral;
+    text-align: center;
+    margin:20px;
+    padding: 20px;
+    display: inline-block;
+}
+.box3{
+    height: 200px;
+    width: 150px;
+    background-color:cadetblue;
+    text-align: center;
+    margin:20px;
+    padding: 20px;
+    display:inline-block;
 }
