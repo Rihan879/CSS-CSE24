@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+    width: 1000px;
+    height: 500px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: rgb(100, 199, 199);
+    border: 2px solid rgb(169, 46, 46);
+    /* grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer"; */
+    column-gap: 15px;
+    justify-items: center;
+    align-items: center;
+
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(187, 107, 107);
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+} 
